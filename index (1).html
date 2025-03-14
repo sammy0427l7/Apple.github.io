@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Buscar la Manzana Perdida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>¡Encuentra la manzana!</h1>
+        <div class="options">
+            <div class="option" id="option1" onclick="checkChoice(1)">
+                <p>¿?</p>
+            </div>
+            <div class="option" id="option2" onclick="checkChoice(2)">
+                <p>¿?</p>
+            </div>
+            <div class="option" id="option3" onclick="checkChoice(3)">
+                <p>¿?</p>
+            </div>
+        </div>
+        <button onclick="resetGame()">Reiniciar</button>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
